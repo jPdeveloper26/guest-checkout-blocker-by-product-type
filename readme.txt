@@ -1,6 +1,5 @@
 === Guest Checkout Blocker by Product Type for Woocommerce ===
-Contributors: CognitoWP
-Donate link: https://wpbay.com/store/cognitowp/
+Contributors: Juan Mojica
 Tags: woocommerce, checkout, guest checkout, product types, registration
 Requires at least: 5.0
 Tested up to: 6.8
