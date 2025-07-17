@@ -1,0 +1,139 @@
+# Copyright (C) 2024 Your Name
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Guest Checkout Blocker by Product Type 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/guest-checkout-blocker-by-product-type\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-01-01T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: guest-checkout-blocker-by-product-type\n"
+
+#. Plugin Name of the plugin
+msgid "Guest Checkout Blocker by Product Type"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://example.com/guest-checkout-blocker-by-product-type"
+msgstr ""
+
+#. Description of the plugin
+msgid "Force login or registration for certain product types in WooCommerce"
+msgstr ""
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://example.com"
+msgstr ""
+
+#: guest-checkout-blocker-by-product-type.php:73
+msgid "Guest Checkout Blocker by Product Type requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-gcbpt-admin.php:125
+#: includes/class-gcbpt-admin.php:126
+msgid "Guest Checkout Blocker"
+msgstr ""
+
+#: includes/class-gcbpt-admin.php:169
+msgid "Security check failed"
+msgstr ""
+
+#: includes/class-gcbpt-admin.php:184
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:18
+msgid "Simple Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:19
+msgid "Variable Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:20
+msgid "Grouped Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:21
+msgid "External/Affiliate Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:22
+msgid "Virtual Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:23
+msgid "Downloadable Product"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:49
+msgid "Enable Guest Checkout Blocker"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:53
+msgid "Enable or disable the guest checkout blocker functionality."
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:58
+#: includes/class-gcbpt-settings.php:62
+msgid "Product Types"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:71
+msgid "Select which product types require customer login/registration."
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:76
+msgid "Notice Message"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:80
+msgid "Message displayed to guests when their cart contains restricted products."
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:85
+msgid "Redirect Page"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:90
+msgid "My Account"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:93
+msgid "Login Page"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:96
+msgid "Where to redirect guests who try to checkout with restricted products."
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:101
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-gcbpt-settings.php:114
+#: includes/class-gcbpt-frontend.php:199
+msgid "Your cart contains items that require an account. Please log in or create an account to continue."
+msgstr ""
+
+#: includes/class-gcbpt-activator.php:21
+msgid "Guest Checkout Blocker by Product Type requires PHP version 7.2 or higher."
+msgstr ""
+
+#: includes/class-gcbpt-activator.php:22
+#: includes/class-gcbpt-activator.php:33
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: includes/class-gcbpt-activator.php:32
+msgid "Guest Checkout Blocker by Product Type requires WordPress version 5.0 or higher."
+msgstr ""

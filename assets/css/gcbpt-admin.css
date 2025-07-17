@@ -1,0 +1,348 @@
+/**
+ * Admin styles for Guest Checkout Blocker by Product Type
+ *
+ * @package GuestCheckoutBlockerByProductType
+ */
+
+/* Main Container */
+.gcbpt-settings-wrap {
+	max-width: 1200px;
+	margin: 20px 20px 20px 0;
+}
+
+.gcbpt-settings-wrap .wp-heading-inline {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.gcbpt-settings-wrap .wp-heading-inline .dashicons {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+	color: #2271b1;
+}
+
+/* Layout Container */
+.gcbpt-settings-container {
+	display: flex;
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.gcbpt-main-content {
+	flex: 1;
+	min-width: 0;
+}
+
+.gcbpt-sidebar {
+	width: 300px;
+	flex-shrink: 0;
+}
+
+/* Cards */
+.gcbpt-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.gcbpt-card h2 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.gcbpt-card h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+/* Status Card */
+.gcbpt-status-card {
+	background: #f0f8ff;
+	border-color: #2271b1;
+}
+
+/* Toggle Switch */
+.gcbpt-switch-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin: 15px 0;
+}
+
+.gcbpt-switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+}
+
+.gcbpt-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.gcbpt-slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: .4s;
+	border-radius: 30px;
+}
+
+.gcbpt-slider:before {
+	position: absolute;
+	content: "";
+	height: 22px;
+	width: 22px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	transition: .4s;
+	border-radius: 50%;
+}
+
+.gcbpt-switch input:checked + .gcbpt-slider {
+	background-color: #2271b1;
+}
+
+.gcbpt-switch input:checked + .gcbpt-slider:before {
+	transform: translateX(30px);
+}
+
+.gcbpt-switch-label {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* Product Types Grid */
+.gcbpt-product-types-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 15px;
+	margin: 20px 0;
+}
+
+.gcbpt-product-type-item {
+	position: relative;
+	cursor: pointer;
+}
+
+.gcbpt-product-type-item input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.gcbpt-product-type-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 15px;
+	background: #f8f9fa;
+	border: 2px solid #dcdcde;
+	border-radius: 8px;
+	transition: all 0.3s ease;
+	text-align: center;
+}
+
+.gcbpt-product-type-box .dashicons {
+	font-size: 32px;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+	color: #50575e;
+}
+
+.gcbpt-product-type-label {
+	font-size: 13px;
+	font-weight: 500;
+	color: #1d2327;
+}
+
+.gcbpt-product-type-item input[type="checkbox"]:checked + .gcbpt-product-type-box {
+	background: #f0f8ff;
+	border-color: #2271b1;
+}
+
+.gcbpt-product-type-item input[type="checkbox"]:checked + .gcbpt-product-type-box .dashicons {
+	color: #2271b1;
+}
+
+.gcbpt-product-type-item:hover .gcbpt-product-type-box {
+	border-color: #2271b1;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Select Controls */
+.gcbpt-select-controls {
+	margin-top: 15px;
+	display: flex;
+	gap: 10px;
+}
+
+/* Message Preview */
+.gcbpt-message-preview {
+	margin-bottom: 20px;
+}
+
+.gcbpt-message-preview label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.gcbpt-preview-message {
+	padding: 15px;
+	background: #f7f7f7;
+	border-left: 4px solid #2271b1;
+	border-radius: 4px;
+}
+
+/* Form Fields */
+.gcbpt-form-field {
+	margin-bottom: 20px;
+}
+
+.gcbpt-form-field label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.gcbpt-form-field textarea,
+.gcbpt-form-field select {
+	width: 100%;
+	max-width: 600px;
+}
+
+.gcbpt-form-field .description {
+	margin-top: 8px;
+	color: #646970;
+	font-style: italic;
+}
+
+/* Sections */
+.section-description {
+	color: #646970;
+	margin-bottom: 20px;
+}
+
+/* Save Container */
+.gcbpt-save-container {
+	padding: 20px;
+	background: #f8f9fa;
+	border-top: 1px solid #dcdcde;
+	margin: 20px -20px -20px;
+	text-align: right;
+}
+
+.gcbpt-save-container .button-primary {
+	font-size: 14px;
+	padding: 8px 24px;
+	height: auto;
+}
+
+/* Sidebar Stats */
+.gcbpt-stats {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gcbpt-stats li {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 10px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.gcbpt-stats li:last-child {
+	border-bottom: none;
+}
+
+.gcbpt-stats .dashicons {
+	color: #2271b1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+	.gcbpt-settings-container {
+		flex-direction: column;
+	}
+	
+	.gcbpt-sidebar {
+		width: 100%;
+		max-width: 600px;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.gcbpt-product-types-grid {
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		gap: 10px;
+	}
+	
+	.gcbpt-product-type-box {
+		padding: 15px 10px;
+	}
+	
+	.gcbpt-save-container {
+		text-align: center;
+	}
+}
+
+/* Disabled State */
+.gcbpt-settings-section[data-section] {
+	transition: opacity 0.3s ease;
+}
+
+.gcbpt-settings-section.disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+/* WooCommerce Notice Styles */
+.woocommerce-info {
+	padding: 1em 1.618em;
+	margin-bottom: 2.617924em;
+	background-color: #f7f6f7;
+	color: #515151;
+	border-top: 3px solid #a46497;
+	list-style: none outside;
+	width: auto;
+	word-wrap: break-word;
+}
+
+.woocommerce-info::before {
+	font-family: WooCommerce;
+	content: "\e028";
+	display: inline-block;
+	position: absolute;
+	top: 1em;
+	left: 1.5em;
+	color: #a46497;
+}
+
+.woocommerce-info {
+	padding-left: 3.5em;
+	position: relative;
+}
