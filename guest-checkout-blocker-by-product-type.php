@@ -1,11 +1,9 @@
 <?php
 /**
  * Plugin Name: Guest Checkout Blocker by Product Type for Woocommerce
- * Plugin URI: https://wpbay.com/store/cognitowp/ 
  * Description: Force login or registration for certain product types in WooCommerce
  * Version: 1.3.0
- * Author: CognitoWP
- * Author URI: https://wpbay.com/store/cognitowp/ 
+ * Author: Juan Mojica
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: guest-checkout-blocker-by-product-type
